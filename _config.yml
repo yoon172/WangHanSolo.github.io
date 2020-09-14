@@ -1,12 +1,12 @@
 # Site setings
-name: 'Royce'
-description: 'Web Developer'
+name: 'Han Wang'
+description: ''
 meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
-  image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Charles Lavoie. I'm a freelance web developer, author and speaker based in Montreal, Canada. It’s nice to meet you."
+  image: 'selfie.jpg'
+  greetings: "Hi there! My name is Han Wang. I'm an Electrical Engeering student at UW-Madison. \n It’s nice to meet you."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://royce.netlify.com/
@@ -16,27 +16,17 @@ mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab160
 ga_analytics: 
 
 # Contact form setings
-email: youremail@email.com
+email: yobynah27@gmail.com
 contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'justgoodthemes'
-facebook: 'username'
-github: 'justgoodthemes'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
-quora: 'username'
+facebook: 'hanyboy27'
+github: 'WangHanSolo'
+linkedin: 'hanwang27'
 
 # Navigation
 navigation:
-  - text: Home
-    url: /
   - text: About
     url: /about
   - text: Style Guide
