@@ -29,12 +29,12 @@ linkedin: 'hanwang27'
 navigation:
   - text: About
     url: /about
-  - text: Style Guide
-    url: /style-guide
-  - text: Contact Me
-    url: /contact
-  - text: Search
-    url: /search
+#  - text: Style Guide
+#    url: /style-guide
+#  - text: Contact Me
+#    url: /contact
+#  - text: Search
+#    url: /search
 
 # Required Plugins
 plugins_dir:
