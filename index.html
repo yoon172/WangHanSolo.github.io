@@ -1,43 +1,45 @@
----
-layout: default
-title: About
----
-<main id="main" class="site-main">
+<!DOCTYPE html>
+<body style="background-color:gray;">
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport", content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            /*create three equal columns that floats next to each other */
+            .column {
+                float:left;
+                width: 33.33%;
+                padding: 10px;
+                height:300px;
+            }
 
-{% if page.url == "/" %}
-<div class="hero inner">
-    <p class="hero-text">{{ site.author.greetings }}</p>
-</div>        
-{% endif %}
+            /* Clear floats after the clomuns */
+            .row::after {
+                content:"";
+                display: table;
+                clear: both;
+            }
+        </style>
+    <head>
+<body>
+    <h2><font size="+5">Han Wang</font>            Transferring from wordpress</h2>
 
-{% if page.url == "/" %}
-<!-- Featured-->
-<div id="featured-posts" class="featured-posts">
-    {% for post in site.posts %}
-    {% if post.featured == true %}
-    {% include featuredbox.html %}
-    {% endif %}
-    {% endfor %}
-</div>
-
-{% endif%}
-
-<!-- Posts Index -->
-<div class="post-feed inner">
-    {% if page.url == "/" %}
-    <div class="post-feed-title">Latest Articles</div>
-    {% endif %}
-    <div class="post-feed inner-wide">
-        {% for post in paginator.posts %}
-            {% include postbox.html %}
-        {% endfor %}
+    <div class="row">
+        <div class="column" style="background-color:#aaa">
+            <h2>About me</h2>
+            <p>Some text...</p>
+        </div>
+        <div class="column" style="background-color: #bbb">
+            <h2>Nerd Stuff</h2>
+            <p>More text...</p>
+        </div>
+        <div class="column" style="background-color: #ccc;">
+            <h2>Books I Read</h2>
+            <p>In the process of transferring to github pages!</p>
+        </div>
     </div>
-</div>
-<!-- Pagination-->
-{% include pagination.html %}
-{% if site.mailchimp_url %}
-    {% include newsletter-box.html %}
-{% endif %}
-</main>
-
-
+</body>
+</html>
+        
